@@ -166,6 +166,12 @@ main{}
     margin-right: 8px;
 }
 
+@media (max-width: 990px)
+{
+    .rodape {
+        padding-top: 50px;
+    }
+}
 
 /*ESTILO SEÇÃO FIMLES */
 .secaoFilmes{
