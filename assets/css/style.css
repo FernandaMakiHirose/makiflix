@@ -9,8 +9,8 @@
 
 /* ESTILOS GERAIS*/
 body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
@@ -51,8 +51,8 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-
 }
+
 /* ESTILOS GERAIS*/
 
 /* ESTILO DO CABEÇALHO*/
@@ -94,7 +94,7 @@ main{}
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 30px 20px 22px;
+    padding: 100px;
 }
 
 .titulo {
@@ -172,6 +172,7 @@ main{}
         padding-top: 50px;
     }
 }
+
 
 /*ESTILO SEÇÃO FIMLES */
 .secaoFilmes{
