@@ -1,12 +1,3 @@
-/*Cascading Style Sheets(Folha de Estilos em Cascata, em português)
- - ESTRUTURA DO CSS
-
---seletor - selecionar um elemento
---propriedade - cor de fundo
---valor - azul
-
---declaração de uma regra */
-
 /* ESTILOS GERAIS*/
 body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
     padding: 0px;
@@ -65,28 +56,12 @@ body{
 .cabecalho .cabecalho__logo{
     text-align: center;
 }
-.cabecalho .cabecalho__logo img{}
 
 /*ESTILO DO MENU*/
 .cabecalho .cabecalho__menu, .cabecalho .cabecalho__menuConfiguracao{
     display: none;
 }
 
-.cabecalho .cabecalho__menu{}
-.cabecalho .cabecalho__menu ul{}
-.cabecalho .cabecalho__menu li{}
-.cabecalho .cabecalho__menu a{}
-
-/*ESTILO ÁREA DE CONFIGURAÇÃO */
-.cabecalho .cabecalho__menuConfiguracao{}
-.cabecalho .cabecalho__menuConfiguracao ul{
-    
-}
-.cabecalho .cabecalho__menuConfiguracao li{}
-.cabecalho .cabecalho__menuConfiguracao a{}
-
-/*ESTILO CONTEÚDO PRINCIPAL */
-main{}
 
 /*ESTILO SEÇÃO DESTAQUE */
 .secaoDestaque{
@@ -117,7 +92,7 @@ main{}
 .secaoDestaque .secaoDestaque__descricaoDestaque{
     color: white;
 }
-.secaoDestaque .secaoDestaque__descricaoDestaque h1{}
+
 .secaoDestaque .secaoDestaque__descricaoDestaque h1 img{
     width: 100%;
     max-width: 180px;
@@ -126,8 +101,6 @@ main{}
     margin: 10px 0;
     font-size: 0.8rem;
 }
-
-.secaoDestaque .secaoDestaque__navegacaoDestaque{}
 
 .secaoDestaque .secaoDestaque__navegacaoDestaque a{
     font-size: 0.8rem;
@@ -166,14 +139,6 @@ main{}
     margin-right: 8px;
 }
 
-@media (max-width: 990px)
-{
-    .rodape {
-        padding-top: 50px;
-    }
-}
-
-
 /*ESTILO SEÇÃO FIMLES */
 .secaoFilmes{
     color: #E5E5E5;
@@ -194,24 +159,19 @@ main{}
 .secaoFilmes .secaoFilmes__listaFilmes li{
     margin-right: 10px;
 }
-.secaoFilmes .secaoFilmes__listaFilmes li figure{}
-.secaoFilmes .secaoFilmes__listaFilmes li img{}
 
 /*ESTILO RODAPÉ */
 .rodape{
     margin: 0px;
     color: #808080;
 }
-.rodape .rodape__midiasSociais{}
+
 .rodape .rodape__midiasSociais ul{
     display: flex;
 }
 .rodape .rodape__midiasSociais ul li{
     margin-right: 8px;
 }
-.rodape .rodape__midiasSociais ul a{
-}
-.rodape .rodape__midiasSociais ul img{}
 
 .rodape .rodape__menuNavegacao{
     margin: 16px 0;
@@ -219,7 +179,7 @@ main{}
 .rodape .rodape__menuNavegacao ul{
     margin-bottom: 10px;
 }
-.rodape .rodape__menuNavegacao ul li{}
+
 .rodape .rodape__menuNavegacao ul li a{
     color: #808080;
 }
@@ -231,7 +191,6 @@ main{}
     display: inline-block;
     margin-bottom: 20px;
 }
-.rodape p{}
 
 
 @media screen and (min-width: 620px) {
@@ -253,7 +212,7 @@ main{}
     }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 990px) {
     .cabecalho .cabecalho__menuConfiguracao ul{
         display: flex;
         flex-direction: row;
@@ -333,5 +292,12 @@ main{}
     }
     .cabecalho .cabecalho__menuConfiguracao a {
         color: white;
+    }
+}
+
+@media (max-width: 990px)
+{
+    .rodape {
+        padding-top: 50px;
     }
 }
