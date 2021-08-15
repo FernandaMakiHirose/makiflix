@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+        <!-- IMPORTANTO ARQUIVO CSS/ ARQUIVO DE ESTILO -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <title>MakiFlix</title>
+    </head>
+
+    <body>
+        
+        <!-- CABEÇALHO -->
+        <header class="cabecalho" id="idCabecalho">
+            <div class="container">
+                <!-- LOGO -->
+                <figure class="cabecalho__logo">
+                    <!-- IMAGEM -->
+                    <img src="./assets/img/logo.png" style="height: 35px;" alt="Logo Kenzie Flix">
+                    <figcaption hidden>Logo marca Kenzie Flix</figcaption>
+                </figure>
+                
+                <!-- MENU DE NAVEGAÇÃO -->
+                <nav class="cabecalho__menu">
+                    
+                    <!-- LISTA DE LINKS -->
+                    <ul>
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#">Séries</a>
+                        </li>
+                        <li>
+                            <a href="#">Filmes</a>
+                        </li>
+                        <li>
+                            <a href="#">Bombando</a>
+                        </li>
+                        <li>
+                            <a href="#">Minha lista</a>
+                        </li>
+                        <li>
+                            <a href="#">Assista de novo</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                
+                <div class="cabecalho__menuConfiguracao">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/pesquisa.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/presente.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/notificacao.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/ProfileIMG.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main style>
+            
+            <!-- SEÇÃO DESTAQUE -->
+            <section class="secaoDestaque">
+                
+                <div class="container">
+                    <!-- IMAGEM DESTAQUE -->
+                    <figure class="secaoDestaque__imagemDestaque">
+                        <figcaption>Nome do filme</figcaption>
+                    </figure>
+
+                    <!-- CONTEÚDO DESTAQUE -->
+                    <article class="secaoDestaque__descricaoDestaque">
+                        <h3 class="titulo">LUCIFER</h3>
+                        <p class="descricao">Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos. </p>
+                    </article>
+                    
+                    <!-- LINKS DE NAVEGAÇÃO -->
+                    <div class="container">
+                        <button role="button" class="botao"> 
+                            <i class="fas fa-play"></i> <!--link do ícone-->
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fas fa-info"></i> <!--link do ícone-->
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO FILMES EM ALTA -->
+            <section class="secaoFilmes" style="padding-top: 50px;">
+               
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2>Em alta</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme1.png" alt="Filme 1">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme2.png" alt="Filme 2">
+                                <figcaption>Filme 2</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme3.png" alt="Filme 3">
+                                <figcaption>Filme 3</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme4.png" alt="Filme 4">
+                                <figcaption>Filme 4</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme5.jpg" style="width: 290px; border-radius: 2%;" alt="Filme 5">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- CONTINUAR ASSISTINDO -->
+            <section class="secaoFilmes secaoFilmes--progressoFilmes">
+
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2 style="margin-top: 40px;">Continuar assistindo</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme10.jpg" style="width: 290px; border-radius: 2%;" alt="Filme 10">
+                                <figcaption>Filme 10</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme9.jpg" style="width: 290px; border-radius: 2%;" alt="Filme 9">
+                                <figcaption>Filme 9</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme8.jpg" style="width: 290px; border-radius: 2%;"  alt="Filme 8">
+                                <figcaption>Filme 8</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme7.jpg" style="width: 290px; border-radius: 2%;" alt="Filme 7">
+                                <figcaption>Filme 7</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme6.jpg" style="width: 290px; border-radius: 2%;" alt="Filme 6">
+                                <figcaption>Filme 6</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="secaoFilmes">
+               
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2 style="margin-top: 40px;">Minha lista</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme6.jpg" style="width: 290px; border-radius: 2%;"  alt="Filme 6">
+                                <figcaption>Filme 6</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme5.jpg" style="width: 290px; border-radius: 2%;"  alt="Filme 5">
+                                <figcaption>Filme 5</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme3.png" alt="Filme 3">
+                                <figcaption>Filme 3</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme4.png" alt="Filme 4">
+                                <figcaption>Filme 4</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme1.png" alt="Filme 1">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/filme2.png" alt="Filme 2">
+                                <figcaption>Filme 2</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="secaoFilmes">
+               
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2 style="margin-top: 40px;">Só na Netflix</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./assets/img/netflix1.jpg" style="width: 380px; border-radius: 10%;" alt="Filme 1">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/netflix2.jpg" style="width: 380px; border-radius: 10%;" alt="Filme 2">
+                                <figcaption>Filme 2</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/netflix3.jpg" style="width: 380px; border-radius: 10%;" alt="Filme 3">
+                                <figcaption>Filme 3</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/netflix4.jpg" style="width: 380px; border-radius: 10%;" alt="Filme 4">
+                                <figcaption>Filme 4</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/netflix5.jpg" style="width: 380px; border-radius: 10%;" alt="Filme 5">
+                                <figcaption>Filme 5</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/netflix6.jpg" style="width: 380px; border-radius: 10%;" alt="Filme 6">
+                                <figcaption>Filme 6</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="secaoFilmes">
+               
+                <div class="container">
+                    <!-- TÍTULO DA SEÇÃO -->
+                    <h2 style="margin-top: 40px;">Top 10 no Brasil hoje</h2>
+
+                    <!-- LISTA DE FILMES -->
+                    <ul class="secaoFilmes__listaFilmes">
+                        <li>
+                            <figure>
+                                <img src="./assets/img/rank1.png" alt="Filme 1">
+                                <figcaption>Filme 1</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/rank2.png" alt="Filme 2">
+                                <figcaption>Filme 2</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/rank3.png" alt="Filme 3">
+                                <figcaption>Filme 3</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/rank4.png" alt="Filme 4">
+                                <figcaption>Filme 4</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer class="rodape">
+           
+            <div class="container">
+                <!-- REDES SOCIAIS  -->
+                <div class="rodape__midiasSociais">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./assets/img/fb.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./assets/img/ig.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./assets/img/tt.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./assets/img/yt.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <nav class="rodape__menuNavegacao">
+                    <ul>
+                        <li>
+                            <a href="#">Imprensa</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacidade</a>
+                        </li>
+                        <li>
+                            <a href="#">Entre em contato</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Audiodescrição</a>
+                        </li>
+                        <li>
+                            <a href="#">Relações com investidores</a>
+                        </li>
+                        <li>
+                            <a href="#">Avisos legais</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Centro de ajuda</a>
+                        </li>
+                        <li>
+                            <a href="#">Carreiras</a>
+                        </li>
+                        <li>
+                            <a href="#">Preferências de cookies</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Cartão pré-pago</a>
+                        </li>
+                        <li>
+                            <a href="#">Termos de uso</a>
+                        </li>
+                        <li>
+                            <a href="#">Informações corporativas</a>
+                        </li>
+                    </ul>
+                </nav>
+            
+                <p style="text-align: center;">© Fernanda Maki Hirose</p>
+            </div>
+        </footer>
+
+            <!--link para conseguir importar fontawesome-->
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    </body>
+
+</html>
